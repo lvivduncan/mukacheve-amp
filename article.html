@@ -1,0 +1,1034 @@
+<!DOCTYPE ⚡ html>
+<head>
+    <meta charset="utf-8">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <title>Mukacheve AMP</title>
+    <link rel="canonical" href="article.html">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+    <script async custom-element="amp-mega-menu" src="https://cdn.ampproject.org/v0/amp-mega-menu-0.1.js"></script>
+
+    <script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
+
+
+    <style amp-custom>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+      *
+      {
+				padding: 0;
+				margin: 0;
+				box-sizing: border-box;
+				font-family: "Roboto", sans-serif;
+			}
+
+      .a1
+      {
+        text-align: center;
+        margin: 2px 0;
+        overflow: hidden;
+        height: 90px;
+        display: block;
+      }
+
+      .a2
+      {
+        text-align: center;
+        margin: 5px;
+        display: block;        
+      }
+
+      #header
+      {
+        display: grid;
+        grid-template-columns: 250px 1fr;
+        position: relative;
+        height: 70px;
+        width: 95%;
+        margin: auto;
+        padding: 10px 0;
+      }
+
+      #header::before
+      {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: -2.5%;
+        right: -2.5%;
+        height: 1px;
+        background: #999;
+      }
+
+      #header::after
+      {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: -2.5%;
+        right: -2.5%;
+        height: 1px;
+        background: #999;        
+      }
+
+      #menu-button
+      {
+        background-image: url("data:image/svg+xml,%3Csvg width='24' height='20' viewBox='0 0 24 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='24' height='2' fill='%23E7D1BA'/%3E%3Crect width='24' height='2' fill='%232D2E70'/%3E%3Crect y='9' width='24' height='2' fill='%23E7D1BA'/%3E%3Crect y='9' width='24' height='2' fill='%232D2E70'/%3E%3Crect y='18' width='24' height='2' fill='%23E7D1BA'/%3E%3Crect y='18' width='24' height='2' fill='%232D2E70'/%3E%3C/svg%3E");
+        width: 24px;
+        height: 20px;
+        position: absolute;
+        top: 20px;
+        right: 10px;
+      }
+
+      [open] #menu-button
+      {
+        background-image: url("data:image/svg+xml,%3Csvg width='24' height='20' viewBox='0 0 24 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='24' height='2' fill='%23E7D1BA'/%3E%3Crect width='24' height='2' fill='%23ffffff'/%3E%3Crect y='9' width='24' height='2' fill='%23E7D1BA'/%3E%3Crect y='9' width='24' height='2' fill='%23ffffff'/%3E%3Crect y='18' width='24' height='2' fill='%23E7D1BA'/%3E%3Crect y='18' width='24' height='2' fill='%23ffffff'/%3E%3C/svg%3E");
+      }
+
+      amp-mega-menu.i-amphtml-layout-size-defined
+      {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+      }
+
+      amp-mega-menu .i-amphtml-mega-menu-content
+      {
+        top: 70px;
+        width: 97.5%;
+        background: #4693dd;
+        padding: 30px 20px;
+      }
+
+      amp-mega-menu a,
+      #feedback span
+      {
+        color: #fff;
+      }
+
+      #primary
+      {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 0 10px;
+      }
+
+      #primary li
+      {
+        width: 50%;
+        margin: 0;
+        display: block;
+      }
+
+      #primary li a
+      {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: -0.015em;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: block;
+        padding: 10px;
+      }
+
+
+      #secondary
+      {
+        margin: 0 0 10px;
+      }
+
+      #secondary li
+      {
+        display: block;
+      }
+
+      #secondary li a
+      {
+        display: block;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        text-decoration: none;
+        padding: 10px;
+      }
+
+      #feedback
+      {
+        margin: 0 0 10px;
+      }
+
+      #feedback li
+      {
+        display: block;
+      }
+
+      #feedback a, 
+      #feedback span
+      {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        text-decoration: underline;
+        cursor: pointer;
+        padding: 10px;
+        display: block;
+      }
+
+      #feedback .enter a
+      {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16px;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+
+      #social-nav
+      {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+      }
+
+      #social-nav li
+      {
+        display: block;
+        margin-left: var(--gap20);
+      }
+
+      #social-nav .facebook
+      {
+        width: 11px;
+        height: 20px;
+        display: inline-block;
+        background-image: url("data:image/svg+xml,%3Csvg width='11' height='20' viewBox='0 0 11 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.44875 3.8075H10.0262V0H6.995V0.0150013C3.3275 0.143751 2.5725 2.20875 2.50625 4.375H2.49875V6.275H0V10.0063H2.49875V20H6.26625V10.0063H9.35375L9.94875 6.275H6.2675V5.12625C6.26875 4.395 6.75625 3.8075 7.44875 3.8075Z' fill='%23ffffff'/%3E%3C/svg%3E%0A");
+
+      }
+
+      #social-nav .instagram
+      {
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_44_653)'%3E%3Cpath d='M1 7.18691V12.6002C1 13.648 1.09921 14.5856 1.31548 15.4149C1.60643 16.5241 2.36223 17.5308 3.31201 18.1271C4.38552 18.8005 5.79792 19 7.18691 19H11.9335C14.5789 19 16.1696 18.8105 17.5308 17.4627C18.9944 16.0147 18.9989 13.7495 18.9989 11.7931V7.86134C18.9766 6.69753 18.9186 5.60061 18.7793 4.94513C18.3702 3.01548 17.0949 1.72905 15.2232 1.26085C14.57 1.09587 13.4641 1.02675 12.2836 1H8.24147C7.6618 1 7.17019 1.03567 6.62396 1.03456C5.71208 1.03344 4.58729 1.20623 3.81142 1.5964C3.28971 1.86171 2.74571 2.19391 2.37561 2.65876C2.06348 3.04893 1.95423 3.0924 1.67777 3.64867C1.3623 4.28519 1.21069 4.86487 1.10702 5.6073C1.0379 6.09222 1 6.64402 1 7.18691Z' stroke='%23ffffff' stroke-width='2' stroke-miterlimit='10'/%3E%3Cpath d='M13.8566 9.99711C13.8566 9.71834 13.8065 9.38242 13.7517 9.13865C13.6187 8.55779 13.3411 7.97576 12.9574 7.5372C11.9414 6.37548 10.4018 5.80046 8.77703 6.34982C8.4621 6.45596 8.0527 6.65425 7.80543 6.83737C7.16858 7.30976 6.85249 7.69467 6.49441 8.41899C6.12467 9.17014 6.09434 10.0589 6.25297 10.8521C6.32179 11.1915 6.49791 11.6242 6.65304 11.8832C6.93997 12.3672 7.22107 12.6833 7.6573 13.0414C8.38046 13.6386 9.45936 13.9173 10.4345 13.8194C11.0153 13.7622 11.5717 13.5429 12.0359 13.2607L12.4616 12.9551C13.011 12.4605 13.3842 11.9928 13.6409 11.2416C13.7563 10.9069 13.8566 10.4298 13.8566 9.99711Z' stroke='%23ffffff' stroke-width='2' stroke-miterlimit='10'/%3E%3Cpath d='M14.4678 4.54312V4.68776C14.4678 5.13215 14.8667 5.53105 15.3111 5.53105C15.731 5.53105 16.0506 5.34676 16.1999 4.96769C16.4821 4.25153 15.7601 3.50971 15.0288 3.79664C14.8818 3.85612 14.7605 3.9611 14.6637 4.07074C14.5786 4.16522 14.4678 4.37633 14.4678 4.54312Z' stroke='%23ffffff' stroke-width='2' stroke-miterlimit='10'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_44_653'%3E%3Crect width='19.9988' height='20' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E")
+      }
+
+      #social-nav .youtube
+      {
+        width: 18px;
+        height: 16px;
+        display: inline-block;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='16' width='18' viewBox='0 0 576 512' fill='%23ffffff'%3E%3Cpath d='M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z'/%3E%3C/svg%3E");
+        margin: 2px 0 0;
+      }
+
+      #social-nav .search
+      {
+        width: 16px;
+        height: 16px;
+        display: inline-block;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='16' width='16' viewBox='0 0 512 512' fill='%23ffffff'%3E%3Cpath d='M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z'/%3E%3C/svg%3E");
+      }
+
+      #main
+      {
+        padding: 30px 0;
+        margin: auto;
+        width: 95%;
+      }
+
+      main h1
+      {
+        font-weight: 700;
+        line-height: 36px;
+        margin: 0 0 20px;
+        font-size: 30px;
+        line-height: 30px;
+      }
+
+      .service
+      {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+        margin: 20px 0;
+        font-size: 15px;
+      }
+
+      .view
+      {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0;
+        color: #999;
+        margin-right: 10px;
+        white-space: nowrap;
+      }
+
+      .view::before
+      {
+        content: '';
+        background-image: url('data:image/svg+xml,%3Csvg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M15.7467 4.67089C15.6059 4.48848 12.2571 0.199951 8 0.199951C3.74293 0.199951 0.3936 4.48848 0.253333 4.67089L0 4.99995L0.253333 5.32902C0.3936 5.51142 3.74293 9.79995 8 9.79995C12.2571 9.79995 15.6059 5.51142 15.7467 5.32902L16 4.99995L15.7467 4.67089ZM8 7.66662C6.52747 7.66662 5.33333 6.47248 5.33333 4.99995C5.33333 3.52742 6.52747 2.33328 8 2.33328C9.47253 2.33328 10.6667 3.52742 10.6667 4.99995C10.6667 6.47248 9.47253 7.66662 8 7.66662Z" fill="%23999999"/%3E%3C/svg%3E%0A');
+        display: inline-block;
+        width: 16px;
+        height: 10px;
+        margin-right: 3px;
+      }
+
+      .comment
+      {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0;
+        color: #999;
+        margin-right: 10px;
+        white-space: nowrap;
+      }
+
+      .comment::before
+      {
+        content: '';
+        background-image: url('data:image/svg+xml,%3Csvg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M8 0.476807C3.58187 0.476807 0 2.86454 0 5.81014C0 7.40107 1.05067 8.82507 2.70773 9.80214L1.5328 13.5232L5.7552 10.9269C6.46773 11.0656 7.21973 11.1435 7.99947 11.1435C12.4176 11.1435 15.9995 8.75574 15.9995 5.81014C16 2.86454 12.4181 0.476807 8 0.476807Z" fill="%23999999"/%3E%3C/svg%3E');
+        display: inline-block;
+        width: 16px;
+        height: 14px;
+        position: relative;
+        top: 2px;
+        left: -3px;
+      }
+
+      amp-social-share.rounded
+      {
+        border-radius: 50%;
+        background-size: 60%;
+        color: #fff;
+        background-color: #4693DD;
+      }
+
+      figure
+      {
+        margin: 20px 0;
+      }
+
+      aside 
+      {
+        text-align: center;
+        margin: 20px 0;
+      }
+
+      main h2
+      {
+        margin: 0 0 20px;
+        font-weight: 700;
+        font-size: 21px;
+        line-height: 30px;
+      }
+
+      main p
+      {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        margin: 0 0 20px;
+      }
+
+      main a
+      {
+        color: #4693DD;
+        text-decoration: underline;
+      }
+
+      main .tags
+      {
+        display: flex;
+        gap: 18px;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      main .tags li
+      {
+        display: block;
+      }
+
+      main .tags a
+      {
+        display: inline-block;
+        background-color: #4693DD;
+        color: #fff;
+        text-transform: uppercase;
+        border-radius: 12px;
+        padding: 5px 7px;
+        text-decoration: none;
+        font-weight: 700;
+      }
+
+      main .tags::before
+      {
+        content: 'Теги:';
+        margin-right: 10px;
+      }
+
+      .title
+      {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 700;
+        letter-spacing: 0;
+        text-align: left;
+        color: #2d2e70;
+        text-transform: uppercase;
+        margin: 0 auto 20px;
+      }
+
+      .news-posts
+      {
+        margin: 20px auto;
+        width: 95%;
+      }
+
+      .news-posts article
+      {
+        border-top: 1px solid #ccc;
+        padding: 15px 0;
+      }
+
+      .news-posts article time
+      {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 9px;
+        letter-spacing: 0;
+        color: #999;
+        display: block;
+        margin: 0 0 10px;
+      }
+
+      .news-posts article h1
+      {
+        display: inline;
+        margin-right: 10px;
+        line-height: 20px;
+      }
+
+      .news-posts article h1 a
+      {
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 0;
+        color: #000;
+        text-decoration: none;
+        transition: color .5s;
+      }
+
+      .news-posts .view, .news-posts .comment
+      {
+        margin-left: 0;
+      }
+
+      .button
+      {
+        margin: auto;
+        text-align: center;
+      }
+
+      .button a
+      {
+        width: 150px;
+        height: 40px;
+        line-height: 40px;
+        border: 1px solid #e5e7eb;
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center;
+        color: #4693DD;
+        display: inline-block;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: border-color .5s;
+      }
+
+      .others-posts
+      {
+        width: 95%;
+        margin: 20px auto;
+      }
+
+      .others-posts article
+      {
+        margin: 0 0 20px;
+      }
+
+      .others-posts article time
+      {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0;
+        color: #999;
+        display: block;
+        margin: 10px 0 4px;
+      }
+
+      .others-posts article h1
+      {
+        display: inline;
+        line-height: 20px;
+        margin-right: 10px;
+      }
+
+      .others-posts article h1 a
+      {
+        color: #293863;
+        text-decoration: none;
+        transition: color .5s;
+        font-size: 18px;
+        font-weight: 700;
+      }
+
+      #footer
+      {
+        background: #2d2e70;
+        /* min-height: 300px; */
+        padding: 70px 2.5% 20px;
+        color: #fff;
+        margin: 20px 0 0;
+      }
+
+      #footer a
+      {
+        color: #fff;
+        text-decoration: underline;
+      }
+
+      .logo 
+      {
+        margin: 0 0 40px;
+        display: block;
+      }
+
+      #footer p
+      {
+        margin: 0 0 10px;
+      }
+
+      #footer ul 
+      {
+        margin: 40px 0 0;
+      }
+
+      #footer ul li 
+      {
+        margin: 0 0 20px;
+      }
+
+      #footer .facebook
+      {
+        display: inline-block;
+        width: 11px;
+        height: 20px;
+        background-image: url("data:image/svg+xml,%3Csvg width='11' height='20' viewBox='0 0 11 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.44875 3.8075H10.0262V0H6.995V0.0150013C3.3275 0.143751 2.5725 2.20875 2.50625 4.375H2.49875V6.275H0V10.0063H2.49875V20H6.26625V10.0063H9.35375L9.94875 6.275H6.2675V5.12625C6.26875 4.395 6.75625 3.8075 7.44875 3.8075Z' fill='white'/%3E%3C/svg%3E");
+        margin-right: 5px;;
+      }
+
+      #footer .instagram
+      {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 7.18691V12.6002C1 13.648 1.09921 14.5856 1.31548 15.4149C1.60643 16.5241 2.36223 17.5308 3.31201 18.1271C4.38552 18.8005 5.79792 19 7.18691 19H11.9335C14.5789 19 16.1696 18.8105 17.5308 17.4627C18.9944 16.0147 18.9989 13.7495 18.9989 11.7931V7.86134C18.9766 6.69753 18.9186 5.60061 18.7793 4.94513C18.3702 3.01548 17.0949 1.72905 15.2232 1.26085C14.57 1.09587 13.4641 1.02675 12.2836 1H8.24147C7.6618 1 7.17019 1.03567 6.62396 1.03456C5.71208 1.03344 4.58729 1.20623 3.81142 1.5964C3.28971 1.86171 2.74571 2.19391 2.37561 2.65876C2.06348 3.04893 1.95423 3.0924 1.67777 3.64867C1.3623 4.28519 1.21069 4.86487 1.10702 5.6073C1.0379 6.09222 1 6.64402 1 7.18691Z' stroke='white' stroke-width='2' stroke-miterlimit='10'/%3E%3Cpath d='M13.8566 9.99711C13.8566 9.71834 13.8065 9.38242 13.7517 9.13865C13.6187 8.55779 13.3411 7.97576 12.9574 7.5372C11.9414 6.37548 10.4018 5.80046 8.77703 6.34982C8.4621 6.45596 8.0527 6.65425 7.80543 6.83737C7.16858 7.30976 6.85249 7.69467 6.49441 8.41899C6.12467 9.17014 6.09434 10.0589 6.25297 10.8521C6.32179 11.1915 6.49791 11.6242 6.65304 11.8832C6.93997 12.3672 7.22107 12.6833 7.6573 13.0414C8.38046 13.6386 9.45936 13.9173 10.4345 13.8194C11.0153 13.7622 11.5717 13.5429 12.0359 13.2607L12.4616 12.9551C13.011 12.4605 13.3842 11.9928 13.6409 11.2416C13.7563 10.9069 13.8566 10.4298 13.8566 9.99711Z' stroke='white' stroke-width='2' stroke-miterlimit='10'/%3E%3Cpath d='M14.4678 4.54312V4.68776C14.4678 5.13215 14.8667 5.53105 15.3111 5.53105C15.731 5.53105 16.0506 5.34676 16.1999 4.96769C16.4821 4.25153 15.7601 3.50971 15.0288 3.79664C14.8818 3.85612 14.7605 3.9611 14.6637 4.07074C14.5786 4.16522 14.4678 4.37633 14.4678 4.54312Z' stroke='white' stroke-width='2' stroke-miterlimit='10'/%3E%3C/svg%3E");
+        margin-right: 5px;
+      }
+
+      #footer .youtube
+      {
+        display: inline-block;
+        width: 20px;
+        height: 15px;
+        background-image: url("data:image/svg+xml,%3Csvg width='20' height='15' viewBox='0 0 20 15' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9.88961 0.00593962C11.1496 0.00593962 12.4108 -0.0103081 13.6708 0.0109416C15.0195 0.0334412 16.3707 0.0509403 17.7145 0.207188C18.2045 0.264687 18.5832 0.515932 18.8832 0.893425C19.4007 1.54591 19.5894 2.32965 19.7407 3.12213C19.9182 4.05087 19.9907 4.99335 19.9919 5.93834C19.9932 7.05707 20.0282 8.17705 19.9419 9.29453C19.8669 10.2708 19.7357 11.237 19.4032 12.167C19.0057 13.2795 18.2345 13.8019 17.0445 13.8694C13.382 14.0782 9.71961 13.9982 6.05593 13.9919C4.8322 13.9894 3.60597 13.9207 2.38599 13.8007C1.66225 13.7307 1.17851 13.2945 0.837268 12.6845C0.437275 11.9695 0.297279 11.1745 0.176031 10.3795C-0.0852146 8.65704 0.0135333 6.92082 0.0422828 5.1921C0.0585325 4.24462 0.15853 3.29088 0.421025 2.36715C0.527274 1.99091 0.687271 1.63716 0.858518 1.28592C1.23601 0.508431 1.89725 0.219687 2.70974 0.155938C5.09844 -0.0315587 7.49465 0.00468964 9.88961 0.00593962Z' fill='white'/%3E%3Cpath d='M8.03125 10.6259L13.6586 7.00473L8.03125 3.38354V10.6259Z' fill='%232D2E70'/%3E%3C/svg%3E");
+        margin-right: 5px;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <a class="a1" href="#">
+      <amp-img src="temp/a1.jpg"
+        width="970"
+        height="90"
+        alt="">
+      </amp-img>
+    </a>
+
+    <header id="header">
+
+      <a href="/" id="logo" title="mukacheve.net">
+        <amp-img src="images/logo.png"
+         layout="responsive"
+          width="250"
+          height="50"
+          alt="mukacheve.net">
+        </amp-img>        
+      </a>
+
+      <amp-mega-menu height="50">
+        <nav>
+          <ul>
+            <li>
+
+              <span role="button" id="menu-button"></span>
+
+              <div role="dialog">
+
+                  <ul id="primary">
+                    <li><a href="#" class="active">Головна</a></li>
+                    <li><a href="#">Політика</a></li>
+                    <li><a href="#">Економіка</a></li>
+                    <li><a href="#">Культура</a></li>
+                    <li><a href="#">Спорт</a></li>
+                    <li><a href="#">Кримінал</a></li>
+                    <li><a href="#">Життя</a></li>
+                  </ul>
+
+                  <ul id="secondary">
+                    <li><a href="#">Новини</a></li>
+                    <li><a href="#">Аналітика</a></li>
+                    <li><a href="#">Мультимедіа</a></li>
+                    <li><a href="#">Блоги</a></li>
+                    <li><a href="#">Сервіси</a></li>
+                  </ul>
+
+                  <ul id="feedback">
+                    <li><a href="#">Редакція</a></li>
+                    <li><a href="#">Реклама</a></li>
+                    <li><span>Повідомити новину</span></li>
+                    <li class="enter"><a href="#">Увійти</a></li>
+                  </ul>
+
+                  <ul id="social-nav">
+                    <li>
+                      <a href="#"><span class="facebook"></span></a>
+                    </li>
+                    <li>
+                      <a href="#"><span class="instagram"></span></a>
+                    </li>
+                    <li>
+                      <a href="#"><span class="youtube"></span></a>
+                    </li>
+                    <li>
+                      <a href="/search.html"><span class="search"></span></a>
+                    </li>
+                  </ul>
+
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </amp-mega-menu>
+
+		</header>
+
+    <main id="main">
+      <h1>Захисник з Мукачева розповів, чому покинув все та пішов захищати Україну</h1>
+
+      <div class="service">
+        <time>23.10.2023 | 20:02</time>
+        <div class="view">999</div>
+        <div class="comment">123</div>
+      </div>
+
+      <figure>
+        <amp-img src="temp/300x200.jpg"
+          width="300"
+          height="200"
+          layout="responsive"
+          alt="">
+        </amp-img>        
+      </figure>
+
+      <a class="a1" href="#">
+        <amp-img src="temp/a1.jpg"
+          width="970"
+          height="90"
+          alt="">
+        </amp-img>
+      </a>
+
+      <aside>
+        <amp-social-share class="rounded" aria-label="Share on Facebook" type="facebook" data-param-app_id="254325784911610" width="48" height="48"></amp-social-share>
+        <amp-social-share class="rounded" aria-label="Share on LinkedIn" type="linkedin" width="48" height="48"></amp-social-share>
+        <amp-social-share class="rounded" aria-label="Share on Tumblr" type="tumblr" width="48" height="48"></amp-social-share>
+        <amp-social-share class="rounded" aria-label="Share on Twitter" type="twitter" width="48" height="48"></amp-social-share>
+      </aside>
+
+      <h2>
+        Військовий 128-ої бригади Михайло, на
+        позивний «Буйвол», одразу після російського
+        вторгнення добровільно став на захист
+        Батьківщини.
+      </h2>
+      <p>
+        Як розповідають на сторінці 128 окремої
+        гірсько-штурмової бригади, Михайла російське
+        вторгнення 24 лютого застало у матері на
+        Вінничині.
+      </p>
+      <p>
+        Чоловік одразу повернувся додому, в
+        Мукачево, і побіг у військкомат. «Проскочив
+        у чергу до строковиків і записався в 128
+        бригаду, а не ТРО.
+      </p>
+      <p>
+        Потім мене спитали: «Чому ви сюди прийшли?
+        Ви ж навіть не служили!» «Та в нас пів
+        України не служило, – відповідаю. – Але ж
+        треба комусь і воювати», — розповідає
+        Михайло.
+      </p>
+      <p>
+        Через тиждень Михайла з побратимами відвезли
+        в зону бойових дій. Спершу вони тримали
+        оборону, а потім штурмували ворожі позиції й
+        звільняли територію.
+      </p>
+      <p>
+        "Мене найбільше вразило, що коли ми
+        висуваємося колоною на бойове завдання,
+        їдемо через село, а маленькі діти стають
+        навколішки й благословляють нас. Це
+        пробирало до глибини душі", — зазначає
+        захисник. «Буйвол» розповідає, що тікаючи
+        росіяни кидали купу своєї зброї –
+        боєкомплекти, рюкзаки, автомати, кулемети,
+        снайперські гвинтівки. Але з деяких встигли
+        витягти бойки чи інші деталі.
+      </p>
+      <p>
+        "Коли ми зайшли в звільнене село, і місцеві
+        розповіли, що буряти, котрі там стояли, не
+        дозволяли ховати на цвинтарі цивільних.
+        Боялися, що з цвинтаря побачать їхні позиції
+        й здадуть ЗСУ. Тому людей ховали в
+        подвір’ях, садах, городах", — ділиться
+        спогадами захисник.
+      </p>
+      <p>
+        Михайло має кілька поранень — найважче
+        отримав на Донеччині. Після останнього
+        поранення сколок так і залишився в його
+        грудях. Відколи "Буйвол" в бригаді, він вже
+        нарахував п’ять своїх нових днів народження.
+      </p>
+      <p>
+        "Чи не шкодую, що добровільно пішов на
+        війну? Ні. У мене двоє дітей, і вони б мене
+        не зрозуміли. Тепер, можливо, мовчали б і
+        раділи, що я з ними. А далі ні. Як так – йде
+        війна, а я сиджу вдома чи ховаюся. Ні, я не
+        шкодую, моє місце тут", — підсумовує
+        «Буйвол».
+      </p>
+      <p>
+        Слідкуйте за нами у
+        <a href="#">Facebook</a> та
+        <a href="#">Instagram</a> .
+        <br>
+        Також підписуйтесь на наш
+        <a href="#">Telegram</a> та
+        <a href="#">Youtube</a>.
+      </p>
+      <ul class="tags">
+        <li>
+          <a href="#"> Захисник </a>
+        </li>
+        <li>
+          <a href="#"> 128 БРИГАДА </a>
+        </li>
+        <li>
+          <a href="#"> ВОЇН </a>
+        </li>
+      </ul>
+      
+    </main>
+
+    <a class="a1" href="#">
+      <amp-img src="temp/a1.jpg"
+        width="970"
+        height="90"
+        alt="">
+      </amp-img>
+    </a>
+
+    <div class="news-posts">
+      <div class="title">Новини Закарпаття</div>
+
+      <article>
+        <time datetime="11:26">11:26</time>
+        <h1>
+          <a href="#">
+            <strong>На Закарпатті критична нестача кількох
+              груп крові</strong>
+          </a>
+        </h1>
+        <span class="view">15</span>
+      </article>
+
+      <article>
+        <time datetime="11:26">11:26</time>
+        <h1>
+          <a href="#">Пандуси, поручні, звукові інформатори: у
+            Мукачеві затвердили програму
+            безбар'єрності</a>
+        </h1>
+        <span class="comment">115</span>
+      </article>
+
+      <article>
+        <time datetime="11:26">11:26</time>
+        <h1>
+          <a href="#">Ще 810 окупантів було ліквідовано
+            українськими військовими</a>
+        </h1>
+        <span class="comment">223</span>
+      </article>
+
+      <article>
+        <time datetime="11:26">11:26</time>
+        <h1>
+          <a href="#">В Мукачеві виділили 2,6 млн грн допомоги
+            захисникам та родинам полеглих Героїв</a>
+        </h1>
+        <span class="comment">4</span>
+      </article>
+
+      <article>
+        <time datetime="11:26">11:26</time>
+        <h1>
+          <a href="#">Закарпатські рятувальники спустили з гір
+            туристку, у якої сильно заболів живіт
+            (ФОТО)</a>
+        </h1>
+        <span class="comment">4</span>
+      </article>
+
+      <article>
+        <time datetime="11:26">11:26</time>
+        <h1>
+          <a href="#">Пандуси, поручні, звукові інформатори: у
+            Мукачеві затвердили програму
+            безбар'єрності</a>
+        </h1>
+        <span class="comment">65</span>
+      </article>
+
+      <article>
+        <time datetime="11:26">11:26</time>
+        <h1>
+          <a href="#">
+            На Закарпатті критична нестача кількох груп
+            крові
+          </a>
+        </h1>
+        <span class="view">15</span>
+      </article>
+
+      <article>
+        <time datetime="11:26">11:26</time>
+        <h1>
+          <a href="#">Пандуси, поручні, звукові інформатори: у
+            Мукачеві затвердили програму
+            безбар'єрності</a>
+        </h1>
+        <span class="comment">115</span>
+      </article>
+
+      <article>
+        <time datetime="11:26">11:26</time>
+        <h1>
+          <a href="#">Ще 810 окупантів було ліквідовано
+            українськими військовими</a>
+        </h1>
+        <span class="comment">223</span>
+      </article>
+
+      <article>
+        <time datetime="11:26">11:26</time>
+        <h1>
+          <a href="#">В Мукачеві виділили 2,6 млн грн допомоги
+            захисникам та родинам полеглих Героїв</a>
+        </h1>
+        <span class="comment">4</span>
+      </article>
+
+      <article>
+        <time datetime="11:26">11:26</time>
+        <h1>
+          <a href="#">Закарпатські рятувальники спустили з гір
+            туристку, у якої сильно заболів живіт
+            (ФОТО)</a>
+        </h1>
+        <span class="comment">4</span>
+      </article>
+
+      <article>
+        <time datetime="11:26">11:26</time>
+        <h1>
+          <a href="#">Пандуси, поручні, звукові інформатори: у
+            Мукачеві затвердили програму
+            безбар'єрності</a>
+        </h1>
+        <span class="comment">65</span>
+      </article>
+
+      <div class="button">
+        <a href="#">Більше новин</a>
+      </div>
+
+    </div>
+
+    <a href="#" class="a2">
+      <amp-img src="temp/a2.jpg"
+        width="300"
+        height="600"
+        alt="">
+      </amp-img>
+    </a>
+
+    <div class="others-posts">
+
+      <div class="title">Інші статті</div>
+
+        <article>
+
+          <figure>
+            <amp-img src="temp/politic1.jpg"
+              width="300"
+              height="193"
+              layout="responsive"
+              alt="">
+            </amp-img>
+          </figure>
+
+          <time datetime="23.10.2023 | 18:27">23.10.2023 | 18:27</time>
+          <h1>
+            <a href="#">Ердоган зробив крок до схвалення членства Швеції в НАТО</a>
+          </h1>
+          <span class="view">15</span>
+        </article>
+
+        <article>
+
+          <figure>
+            <amp-img src="temp/politic1.jpg"
+              width="300"
+              height="193"
+              layout="responsive"
+              alt="">
+            </amp-img>
+          </figure>
+
+          <time datetime="23.10.2023 | 18:27">23.10.2023 | 18:27</time>
+          <h1>
+            <a href="#">"Надійні союзники": Близько 60% зерна з України йде транзитом через Румунію</a>
+          </h1>
+          <span class="view">15</span>
+        </article>
+
+        <article>
+
+          <figure>
+            <amp-img src="temp/politic1.jpg"
+              width="300"
+              height="193"
+              layout="responsive"
+              alt="">
+            </amp-img>
+          </figure>
+
+          <time datetime="23.10.2023 | 18:27">23.10.2023 | 18:27</time>
+          <h1>
+            <a href="#">Спортсмени з Закарпаття вибороли "золото", "срібло" та "бронзу" на міжнародних змаганнях в Естонії (ФОТО)</a>
+          </h1>
+          <span class="view">15</span>
+        </article>
+
+        <article>
+
+          <figure>
+            <amp-img src="temp/politic1.jpg"
+              width="300"
+              height="193"
+              layout="responsive"
+              alt="">
+            </amp-img>
+          </figure>
+
+          <time datetime="23.10.2023 | 18:27">23.10.2023 | 18:27</time>
+          <h1>
+            <a href="#">На Закарпатті критична нестача кількох груп крові</a>
+          </h1>
+          <span class="view">15</span>
+        </article>
+			
+    </div>
+
+    <a class="a1" href="#">
+      <amp-img src="temp/a1.jpg"
+        width="970"
+        height="90"
+        alt="">
+      </amp-img>
+    </a>
+
+    <footer id="footer">
+
+      <a href="/" class="logo">
+        <amp-img src="images/logo-footer.png"
+          width="300"
+          height="60"
+          alt="">
+        </amp-img>
+      </a>
+
+      <p>
+        <a href="#">© 2001-2023 Закарпатський інформаційно-діловий
+          портал «Mukachevo.net». Усі права застережено.</a>
+      </p>
+      <p>
+        Передрук матеріалів – тільки за умови гіперпосилання не
+        нижче 3 абзацу на відповідну сторінку публікації на
+        сайті <a href="#">www.mukachevo.net</a> Друковані
+        видання повинні отримати письмову згоду від редакції на
+        передрук.
+      </p>
+      <p>
+        Редакція може не розділяти думок чи поглядів,
+        висвітлених у авторських або рекламних повідомленнях,
+        розміщених на сайті.
+      </p>
+
+      <ul>
+        <li><a href="#">news@mukachevo.net</a></li>
+        <li><a href="#">Реклама на сайті</a></li>
+        <li><a href="#">Політика конфіденційності</a></li>
+        <p>
+          <a href="#" class="facebook"></a>
+          <a href="#" class="instagram"></a>
+          <a href="#" class="youtube"></a>
+        </p>
+      </ul>
+
+		</footer>
+
+  </body>
+</html>
